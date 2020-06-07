@@ -4,6 +4,9 @@ set number relativenumber
 " tabs == 2 spaces
 set tabstop=2 shiftwidth=2
 
+" set scroll buffer above/below cursor to 3 spaces
+set so=3
+
 " open all current buffers as tabs
 nmap <leader>tt :tab sball<cr>
 " open all current buffers as tiled windows
