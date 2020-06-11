@@ -1,6 +1,9 @@
 " add numbers and relative numbers to left hand gutter
 set number relativenumber
 
+" don't fold code upon opening, but zc restores the folds
+set nofoldenable 
+
 " tabs == 2 spaces
 set tabstop=2 shiftwidth=2
 
