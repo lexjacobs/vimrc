@@ -270,6 +270,9 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Get rid of escape
+:inoremap jk <Esc>
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
